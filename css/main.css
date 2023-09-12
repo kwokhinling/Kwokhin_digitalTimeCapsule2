@@ -1,0 +1,15 @@
+body{background-color: black;}
+header{background-color:#6A15FF;}
+nav{text-align: center;
+   color:white;
+   font-family: 'Roboto', sans-serif;
+   font-size:26px;}
+
+h3 {text-align: center;
+   color:white;
+   font-family: 'Roboto', sans-serif;
+   font-size: 32px;}
+
+p {color:white;
+  font-family: 'Kurale', serif;
+  font-size:18px;}
