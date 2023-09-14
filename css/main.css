@@ -1,15 +1,54 @@
-body{background-color: black;}
-header{background-color:#6A15FF;}
-nav{text-align: center;
-   color:white;
-   font-family: 'Roboto', sans-serif;
-   font-size:26px;}
+body { 
+   background-color: rgb(152, 224, 255);
+}
 
-h3 {text-align: center;
-   color:white;
-   font-family: 'Roboto', sans-serif;
-   font-size: 32px;}
+header {
+   background-color:#dcf802fd;
+}
 
-p {color:white;
-  font-family: 'Kurale', serif;
-  font-size:18px;}
+nav {
+   text-align: center;
+   color:rgb(31, 23, 10);
+   font-family: 'Roboto', sans-serif;
+   font-size:26px;
+}
+
+h3 {
+   text-align: center;
+   color:rgb(31, 23, 10);
+   font-family: 'Roboto', sans-serif;
+   font-size: 32px;
+}
+
+p {
+   color:rgb(31, 23, 10);
+   font-family: 'Kurale', serif;
+   font-size:18px;
+   margin: 20px 10px 20px 10px;
+}
+  
+body {
+   padding: 50px; 
+ }
+
+ div {
+   animation-name: spin;
+   animation-duration: 5000ms;
+   animation-iteration-count: infinite;
+   animation-timing-function:linear ; 
+ }
+ 
+ @keyframes spin {
+     from {
+         transform:rotate(0deg);
+     }
+     to {
+         transform:rotate(360deg);
+     }
+ }
+
+body {
+   cursor:auto;
+   cursor:pointer;
+   cursor:url(/Kwokhin_digitalTimeCapsule2/img/cursor.png),auto;
+}
