@@ -1,7 +1,20 @@
-body { 
-    background-color: rgb(152, 224, 255);
- }
+
  
  header {
     background-color:#dcf802fd;
  }
+.story{
+   width: 1400px;
+   height: 700px;
+   background-image: url('img/dragon.webp'); 
+      
+
+}
+.nechronica img {
+   width: 400px;
+   height: 700px;
+}
+.usdnd img {
+   width: 600px;
+   height: 400px;
+}
