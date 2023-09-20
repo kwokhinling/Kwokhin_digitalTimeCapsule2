@@ -1,15 +1,26 @@
 
  
- header {
-    background-color:#dcf802fd;
- }
+ body { 
+   background-color: #9DC3C2;
+   padding: 0px; 
+   margin:20px;
+}
+
+header {
+   background-color:#77A6B6;
+}
+
 .story{
    width: 1400px;
    height: 700px;
-   background-image: url('img/dragon.webp'); 
-      
-
 }
+.story div {
+  display: flex;
+  gap: 0px;
+  margin:0%;
+  padding:0%;
+}
+
 .nechronica img {
    width: 400px;
    height: 700px;
