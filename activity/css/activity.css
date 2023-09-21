@@ -33,10 +33,12 @@ body {
 }
 .main{
     text-align: right;
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content:flex-end;
-    box-sizing: 600px;
+    padding-left: 60%;
+    
+    
     
 
   }
@@ -53,5 +55,5 @@ p {
  * {
     cursor:auto;
     cursor:pointer;
-    cursor:url(../img/sdlay2.png),auto;
+    cursor:url(../img/sdlay3.png),auto;
  }

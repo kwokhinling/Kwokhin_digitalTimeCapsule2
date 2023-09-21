@@ -45,8 +45,14 @@ nav a{
    width: 600px;
    height: 400px;
 }
-body {
+.usdnd a {
+   text-align: center;
+   color:rgb(31, 23, 10);
+   font-family: 'Noto Serif', serif;
+   font-size:40px;
+}
+* {
    cursor:auto;
    cursor:pointer;
-   cursor:url(../img/sdlay2.png),auto;
+   cursor:url(../img/sdlay3.png),auto;
 }

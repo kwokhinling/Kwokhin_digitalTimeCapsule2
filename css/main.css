@@ -63,8 +63,8 @@ p {
      }
  }
  .sleep {
-   animation-name: spin;
-   animation-duration: 5000ms;
+   animation-name: spinreverse;
+   animation-duration: 1000ms;
    animation-iteration-count: infinite;
    animation-timing-function:linear ; 
    position: absolute;
@@ -72,12 +72,12 @@ p {
    left:600px;
  }
  
- @keyframes spin {
+ @keyframes spinreverse {
      from {
-         transform:rotate(0deg);
+         transform:rotate(360deg);
      }
      to {
-         transform:rotate(360deg);
+         transform:rotate(0deg);
      }
  }
 
