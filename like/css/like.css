@@ -24,28 +24,28 @@ nav a{
    background-color: #9DC3C2;
    padding: 0px; 
    margin:20px;
+   
+}
+p {
+   max-width: 70%;
 }
 
-.story{
-   width: 1400px;
-   height: 700px;
-}
-.story div {
+.story  {
   display: flex;
-  gap: 0px;
-  margin:0%;
-  padding:0%;
+  margin-top: 10%;
 }
 
 .nechronica img {
-   width: 400px;
-   height: 700px;
+   width: 200px;
+   height: 350px;
+   margin-right: 2%;
 }
 .usdnd img {
-   width: 600px;
-   height: 400px;
+   width: 400px;
+   height: 270px;
+   margin-right: 2%;
 }
-.usdnd a {
+a {
    text-align: center;
    color:rgb(31, 23, 10);
    font-family: 'Noto Serif', serif;
