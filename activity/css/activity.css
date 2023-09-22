@@ -32,10 +32,10 @@ body {
    background-position: 0%;
 }
 .main{
-    text-align: right;
+    text-align: left;
     display: block;
     flex-direction: column;
-    justify-content:flex-end;
+    justify-content:flex-start;
     padding-left: 60%;
     
     
