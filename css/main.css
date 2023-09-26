@@ -19,7 +19,7 @@ nav {
    
 }
 
-nav a{
+nav a {
    margin: 20px;
 }
 
@@ -30,21 +30,25 @@ h3 {
    font-size: 32px;
 }
 
-p {
+.main {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content:center;
+   }
+
+#p {
    color:rgb(31, 23, 10);
    font-family: 'Noto Serif', serif;
    font-size:18px;
    margin: 5px;
    padding: 3%;
-
 }
 
- .main {
-   display: flex;
-   flex-direction: row-reverse;
-   justify-content:center;
-   
- }
+#gif {
+   margin: 3%;
+   margin-left: 0%;
+}
+ 
 
  .sit {
    animation-name: spin;
