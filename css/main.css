@@ -1,5 +1,8 @@
 *{
    margin: 0px;
+   cursor:auto;
+   cursor:pointer;
+   cursor:url(../img/cursor.png), auto;
 }
 
 body { 
@@ -84,9 +87,3 @@ h3 {
          transform:rotate(0deg);
      }
  }
-
-* {
-   cursor:auto;
-   cursor:pointer;
-   cursor:url(../img/cursor.png), auto;
-}
